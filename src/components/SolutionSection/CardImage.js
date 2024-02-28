@@ -1,12 +1,11 @@
-import React from './react'
-
 export default function CardImage(props){
 
-  const url = require (`${props.url}`);
+  const url = props.url;
+  const link = require('url');
 
   return(
     <>
-    <img src={'url'} alt=""/>
+    <img src = 'link' alt=""/>
     </>
   )
 

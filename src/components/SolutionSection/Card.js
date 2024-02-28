@@ -7,9 +7,9 @@ function Card() {
 
   return (
     <div>
-      <CardImage url=" " />
-      <CardHeading heading=""/>
-      <CardText text=""/>
+      <CardImage url =""  />
+      <CardHeading heading="Construction Management"/>
+      <CardText text="We have a wealth of experience working as main building contractors."/>
     </div>
   )
 }
