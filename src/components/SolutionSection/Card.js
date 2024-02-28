@@ -1,12 +1,11 @@
 import React from 'react'
+import CardImage from './CardImage'
 
-function Card(props) {
-
-  const url = require(props.url);
+function Card() {
 
   return (
     <div>
-      <img src= {'url'}  alt=""/>
+      <CardImage url=" " />
       <h1>{props.heading}</h1>
       <p>{props.text}</p>
       
