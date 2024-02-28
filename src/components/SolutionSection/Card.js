@@ -1,14 +1,15 @@
 import React from 'react'
 import CardImage from './CardImage'
+import CardHeading from './CardHeading'
+import CardText from './CardText'
 
 function Card() {
 
   return (
     <div>
       <CardImage url=" " />
-      <h1>{props.heading}</h1>
-      <p>{props.text}</p>
-      
+      <CardHeading heading=""/>
+      <CardText text=""/>
     </div>
   )
 }
